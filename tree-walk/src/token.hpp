@@ -1,6 +1,7 @@
 #pragma once
 #include "token_type.hpp"
 #include <string>
+#include <iostream>
 
 typedef struct Token {
    TokenType type;

@@ -1,3 +1,5 @@
+#pragma once
+
 enum TokenType {
     // Single-character tokens.
     LEFT_PAREN = 0,
@@ -45,5 +47,5 @@ enum TokenType {
     VAR,
     WHILE,
 
-    EOF
+    DONE
 };
